@@ -52,7 +52,7 @@ const MongoStore = require('connect-mongo')(session);
 //     })
 // }));
 
-
+let pet = 'fruit bat';
 // a body parser to allow us to parse form submissions
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
