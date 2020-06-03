@@ -52,7 +52,7 @@ app.use(session({
     })
 }));
 
-
+let pet = 'sudas';
 // a body parser to allow us to parse form submissions
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
